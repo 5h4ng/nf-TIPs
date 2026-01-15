@@ -1,0 +1,12 @@
+name: pepnet
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - pip
+  - pandas
+  - numba
+  - pyteomics
+  - pip:
+      - tensorflow==2.5.0
