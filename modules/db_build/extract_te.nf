@@ -27,8 +27,6 @@ process ExtractTEFromBlastDb {
 }
 
 process ExtractTEFromFasta {
-    container 'python:3.11-slim'
-
     publishDir "${params.sample.path}/Denovo", mode: 'copy'
 
     input:
